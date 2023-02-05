@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "art23s",
+  "info": {
+    "singularName": "art23",
+    "pluralName": "art23s",
+    "displayName": "Art23"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "art": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

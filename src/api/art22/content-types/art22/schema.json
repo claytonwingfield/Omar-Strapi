@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "art22s",
+  "info": {
+    "singularName": "art22",
+    "pluralName": "art22s",
+    "displayName": "Art22",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "art": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "context": {
+      "type": "richtext",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
